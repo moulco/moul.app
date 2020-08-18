@@ -1,0 +1,22 @@
+{
+	"name": "moul.app",
+	"version": "1.0.0",
+	"license": "MIT",
+	"author": "Sophearak Tha <hi@sophearak.me> (https://sophearak.me/)",
+	"homepage": "https://moul.app/",
+	"scripts": {
+		"dev": "parcel serve ./src/index.html",
+		"build": "parcel build ./src/index.html"
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "pretty-quick --staged"
+		}
+	},
+	"devDependencies": {
+		"husky": "4.2.5",
+		"parcel": "next",
+		"prettier": "2.0.5",
+		"pretty-quick": "2.0.1"
+	}
+}
