@@ -1,7 +1,6 @@
 {
 	"name": "moul.app",
 	"version": "1.0.0",
-	"license": "MIT",
 	"author": "Sophearak Tha <hi@sophearak.me> (https://sophearak.me/)",
 	"homepage": "https://moul.app/",
 	"scripts": {
