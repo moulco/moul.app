@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Moul • The minimalist publishing tool for photographers</title>
+		<base href="/" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=G-K55L6FKREC"
+		></script>
+		<script>
+			window.dataLayer = window.dataLayer || []
+			function gtag() {
+				dataLayer.push(arguments)
+			}
+			gtag('js', new Date())
+			gtag('config', 'G-K55L6FKREC')
+		</script>
+		<style>
+			:root {
+				--bg: #fff;
+				--fg: #131619;
+				--text: #333;
+				--font: -apple-system, BlinkMacSystemFont, 'San Francisco',
+					Ubuntu, 'Google Sans', Roboto, Noto, 'Segoe UI', Arial,
+					sans-serif;
+			}
+			@media (prefers-color-scheme: dark) {
+				:root {
+					--bg: #131619;
+					--fg: #fff;
+					--text: rgba(242, 243, 245, 0.6);
+				}
+			}
+			::selection {
+				color: #fff;
+				background: #131619;
+			}
+			html {
+				box-sizing: border-box;
+			}
+			*,
+			*::before,
+			*::after {
+				box-sizing: inherit;
+			}
+			body {
+				font-family: var(--font);
+				margin: 0;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				height: 100vh;
+				background: var(--bg);
+				color: var(--fg);
+				padding: 0 32px;
+			}
+			h1 {
+				font-weight: 300;
+			}
+		</style>
+		<link
+			rel="alternate icon"
+			class="favicon-alternate"
+			type="image/png"
+			href=""
+		/>
+		<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+		<script>
+			const alternate = document.querySelector('.favicon-alternate')
+			if (
+				window.matchMedia &&
+				window.matchMedia('(prefers-color-scheme: dark)').matches
+			) {
+				alternate.href = 'favicon-light.png'
+			} else {
+				alternate.href = 'favicon-dark.png'
+			}
+		</script>
+	</head>
+	<body>
+		<h1>404</h1>
+	</body>
+</html>
