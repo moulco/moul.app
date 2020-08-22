@@ -33,7 +33,7 @@ else
 fi
 
 echo "Downloading $DFILE ..."
-curl -LJO https://github.com/sophearak/moul/releases/download/$VERSION/$DFILE.tar.gz
+curl -LJO https://github.com/moulco/moul/releases/download/$VERSION/$DFILE.tar.gz
 
 if [ $? -ne 0 ]; then
   echo "Download failed! Exiting."
