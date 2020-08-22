@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-VERSION="2.0.2"
+VERSION="3.0.0-beta.6"
 
 if [ -n "`$SHELL -c 'echo $ZSH_VERSION'`" ]; then
   shell_profile="zshrc"
