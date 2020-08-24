@@ -17,9 +17,9 @@ case "${unameOut}" in
 esac
 
 if [ "${machine}" == "macOS" ]; then
-  DFILE="moul-darwin"
+  DFILE="moul_darwin_amd64"
 elif [ "${machine}" == "Linux" ]; then
-  DFILE="moul-linux"
+  DFILE="moul_linux_amd64"
 else
   echo "Please specific OS"
   exit 1
