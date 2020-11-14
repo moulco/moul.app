@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-VERSION="3.2.2"
+VERSION="3.2.3"
 
 if [ -n "`$SHELL -c 'echo $ZSH_VERSION'`" ]; then
   shell_profile="zshrc"
@@ -29,7 +29,7 @@ if [ -d "$HOME/.local/bin" ]; then
   echo "The '.local/bin' directory already exist. Using it."
 else
   echo "The '.local/bin' directory not exist. Creating it."
-  mkdir "$HOME/.local/bin"
+  mkdir -p "$HOME/.local/bin"
 fi
 
 echo "Downloading $DFILE ..."
